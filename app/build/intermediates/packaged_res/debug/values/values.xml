@@ -8,6 +8,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">PrimierRentCar</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <style name="Theme.PrimierRentCar" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
