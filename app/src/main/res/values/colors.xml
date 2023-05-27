@@ -7,4 +7,9 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="blueFigma">#FF3330E6</color>
+    <color name="blueFigma2">#001D42</color>
+    <color name="yellowFigma">#FFCC00</color>
+    <color name="whiteFigma">#F5F5F5</color>
+    <color name="blackFigma">#212121</color>
 </resources>
