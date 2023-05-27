@@ -1,5 +1,11 @@
 <resources>
-    <string name="app_name">PrimierRentCar</string>
+    <string name="app_name">PremierRentCar</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="forgot_password">Olvide la contrseña</string>
+    <string name="btn_login">ingresar</string>
+    <string name="txt_pass">password</string>
+    <string name="txt_user">username</string>
+    <string name="premier_title">Premier</string>
+    <string name="rentcar_title">RentCar</string>
 </resources>
