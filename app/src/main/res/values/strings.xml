@@ -8,4 +8,7 @@
     <string name="txt_user">username</string>
     <string name="premier_title">Premier</string>
     <string name="rentcar_title">RentCar</string>
+    <string name="perfil">Perfil</string>
+    <string name="configuracion">Configuración</string>
+    <string name="Favoritos">Favoritos</string>
 </resources>
