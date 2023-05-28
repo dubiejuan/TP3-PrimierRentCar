@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.ProfileFragment">
+    tools:context=".fragments.ProfileFragment"
+    android:id="@+id/Perfil">
 
 
     <LinearLayout
@@ -15,13 +16,23 @@
         android:paddingTop="40dp"
         android:orientation="vertical">
 
-        <ImageView
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="60dp"
+            android:layout_centerHorizontal="true"
+            android:innerRadius="0dp"
+            android:shape="ring">
 
-            android:id="@+id/imageFragmentUserName"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:src="@drawable/lilo"
-            android:background="@drawable/rounded_image"/>
+            <ImageView
+                android:id="@+id/imageFragmentUserName"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/lilo"
+                android:background="@drawable/rounded_image"/>
+
+        </androidx.cardview.widget.CardView>
+
 
         <TextView
             android:id="@+id/txtFragmentUserName"
@@ -59,12 +70,13 @@
                     android:gravity="center"
                     android:text="Notification"
                     android:textAlignment="center"
-                    android:textColor="@color/cyanFigma" />
+                    android:textColor="@color/cyanFigma"
+                    android:textStyle="bold" />
 
                 <LinearLayout
                     android:layout_width="360dp"
                     android:layout_height="56dp"
-                    android:gravity="start"
+                    android:gravity="bottom|start"
                     android:orientation="horizontal">
 
                     <ImageView
