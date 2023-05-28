@@ -17,4 +17,5 @@ juan.txt
 
 # Gradle files
 .gradle/
+gradle/
 build/
