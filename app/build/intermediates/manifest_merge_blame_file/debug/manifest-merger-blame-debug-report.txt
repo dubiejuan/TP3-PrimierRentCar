@@ -6,95 +6,95 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="27"
-8-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml
+8-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml
+9-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:5:5-31:19
+11-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:5:5-31:19
 12        android:allowBackup="true"
-12-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:6:9-35
+12-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.8.0] /Users/jdubie/.gradle/caches/transforms-3/22f0b2be55fdd9e35338f1d33e7b6a02/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.8.0] C:\Users\Maxi\.gradle\caches\transforms-3\22f0b2be55fdd9e35338f1d33e7b6a02\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:7:9-65
+14-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:7:9-65
 15        android:debuggable="true"
 16        android:extractNativeLibs="false"
 17        android:fullBackupContent="@xml/backup_rules"
-17-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:8:9-54
+17-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:8:9-54
 18        android:icon="@mipmap/ic_launcher"
-18-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:9:9-43
+18-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:9:9-43
 19        android:label="@string/app_name"
-19-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:10:9-41
+19-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:10:9-41
 20        android:supportsRtl="true"
-20-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:11:9-35
+20-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:11:9-35
 21        android:theme="@style/Theme.PrimierRentCar" >
-21-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:12:9-52
+21-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:12:9-52
 22        <activity
-22-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:14:9-22:23
+22-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:14:9-22:23
 23            android:name="ort.edu.tp3.primierrentcar.LoginActivity"
-23-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:15:13-42
+23-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:15:13-42
 24            android:exported="true" >
-24-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:16:13-36
+24-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:16:13-36
 25            <intent-filter>
-25-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:17:13-21:29
+25-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:17:13-21:29
 26                <action android:name="android.intent.action.MAIN" />
-26-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:18:17-69
-26-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:18:25-66
+26-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:18:17-69
+26-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:18:25-66
 27
 28                <category android:name="android.intent.category.LAUNCHER" />
-28-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:20:17-77
-28-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:20:27-74
+28-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:20:17-77
+28-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:20:27-74
 29            </intent-filter>
 30        </activity>
 31        <activity
-31-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:23:9-26:20
+31-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:23:9-26:20
 32            android:name="ort.edu.tp3.primierrentcar.MainActivity"
-32-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:24:13-41
+32-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:24:13-41
 33            android:exported="false" >
-33-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:25:13-37
+33-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:25:13-37
 34        </activity>
 35
 36        <meta-data
-36-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:28:9-30:57
+36-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:28:9-30:57
 37            android:name="preloaded_fonts"
-37-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:29:13-43
+37-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:29:13-43
 38            android:resource="@array/preloaded_fonts" />
-38-->/Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:30:13-54
+38-->C:\Users\Maxi\AndroidStudioProjects\TP3-PrimierRentCar\app\src\main\AndroidManifest.xml:30:13-54
 39
 40        <uses-library
-40-->[androidx.window:window:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/4788262bf197915aeb86a1d8b807f706/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+40-->[androidx.window:window:1.0.0] C:\Users\Maxi\.gradle\caches\transforms-3\4788262bf197915aeb86a1d8b807f706\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
 41            android:name="androidx.window.extensions"
-41-->[androidx.window:window:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/4788262bf197915aeb86a1d8b807f706/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+41-->[androidx.window:window:1.0.0] C:\Users\Maxi\.gradle\caches\transforms-3\4788262bf197915aeb86a1d8b807f706\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
 42            android:required="false" />
-42-->[androidx.window:window:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/4788262bf197915aeb86a1d8b807f706/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+42-->[androidx.window:window:1.0.0] C:\Users\Maxi\.gradle\caches\transforms-3\4788262bf197915aeb86a1d8b807f706\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
 43        <uses-library
-43-->[androidx.window:window:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/4788262bf197915aeb86a1d8b807f706/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+43-->[androidx.window:window:1.0.0] C:\Users\Maxi\.gradle\caches\transforms-3\4788262bf197915aeb86a1d8b807f706\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
 44            android:name="androidx.window.sidecar"
-44-->[androidx.window:window:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/4788262bf197915aeb86a1d8b807f706/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+44-->[androidx.window:window:1.0.0] C:\Users\Maxi\.gradle\caches\transforms-3\4788262bf197915aeb86a1d8b807f706\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
 45            android:required="false" />
-45-->[androidx.window:window:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/4788262bf197915aeb86a1d8b807f706/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+45-->[androidx.window:window:1.0.0] C:\Users\Maxi\.gradle\caches\transforms-3\4788262bf197915aeb86a1d8b807f706\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
 46
 47        <provider
-47-->[androidx.emoji2:emoji2:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/ea33e0c029ccb0f958a8cb74e8c3374b/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Maxi\.gradle\caches\transforms-3\ea33e0c029ccb0f958a8cb74e8c3374b\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 48            android:name="androidx.startup.InitializationProvider"
-48-->[androidx.emoji2:emoji2:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/ea33e0c029ccb0f958a8cb74e8c3374b/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Maxi\.gradle\caches\transforms-3\ea33e0c029ccb0f958a8cb74e8c3374b\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
 49            android:authorities="ort.edu.tp3.primierrentcar.androidx-startup"
-49-->[androidx.emoji2:emoji2:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/ea33e0c029ccb0f958a8cb74e8c3374b/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Maxi\.gradle\caches\transforms-3\ea33e0c029ccb0f958a8cb74e8c3374b\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
 50            android:exported="false" >
-50-->[androidx.emoji2:emoji2:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/ea33e0c029ccb0f958a8cb74e8c3374b/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Maxi\.gradle\caches\transforms-3\ea33e0c029ccb0f958a8cb74e8c3374b\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
 51            <meta-data
-51-->[androidx.emoji2:emoji2:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/ea33e0c029ccb0f958a8cb74e8c3374b/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Maxi\.gradle\caches\transforms-3\ea33e0c029ccb0f958a8cb74e8c3374b\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-52-->[androidx.emoji2:emoji2:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/ea33e0c029ccb0f958a8cb74e8c3374b/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Maxi\.gradle\caches\transforms-3\ea33e0c029ccb0f958a8cb74e8c3374b\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 53                android:value="androidx.startup" />
-53-->[androidx.emoji2:emoji2:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/ea33e0c029ccb0f958a8cb74e8c3374b/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Maxi\.gradle\caches\transforms-3\ea33e0c029ccb0f958a8cb74e8c3374b\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
 54            <meta-data
-54-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/jdubie/.gradle/caches/transforms-3/de8a294d972494d66d78f81badae09bd/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+54-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Maxi\.gradle\caches\transforms-3\de8a294d972494d66d78f81badae09bd\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-55-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/jdubie/.gradle/caches/transforms-3/de8a294d972494d66d78f81badae09bd/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Maxi\.gradle\caches\transforms-3\de8a294d972494d66d78f81badae09bd\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 56                android:value="androidx.startup" />
-56-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/jdubie/.gradle/caches/transforms-3/de8a294d972494d66d78f81badae09bd/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Maxi\.gradle\caches\transforms-3\de8a294d972494d66d78f81badae09bd\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 57        </provider>
 58    </application>
 59

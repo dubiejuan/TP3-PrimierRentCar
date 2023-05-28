@@ -3208,6 +3208,7 @@ layout fragment_cars
 layout fragment_home
 layout fragment_profile
 layout fragment_search
+layout header_drawer_menu
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

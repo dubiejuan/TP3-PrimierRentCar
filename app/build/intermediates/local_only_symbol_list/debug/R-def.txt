@@ -82,6 +82,7 @@ layout fragment_cars
 layout fragment_home
 layout fragment_profile
 layout fragment_search
+layout header_drawer_menu
 menu bottom_bar
 menu drawer_menu
 mipmap ic_launcher

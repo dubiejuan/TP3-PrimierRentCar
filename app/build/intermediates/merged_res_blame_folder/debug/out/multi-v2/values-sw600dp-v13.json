@@ -4,7 +4,7 @@
             "outputFile": "ort.edu.tp3.primierrentcar.app-mergeDebugResources-39:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/jdubie/.gradle/caches/transforms-3/cab30429eafbd92d7f5d778aca2b3ede/transformed/material-1.5.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Maxi\\.gradle\\caches\\transforms-3\\cab30429eafbd92d7f5d778aca2b3ede\\transformed\\material-1.5.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jdubie/.gradle/caches/transforms-3/6136ce6e39c49eda7199fbbc96df179e/transformed/appcompat-1.4.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Maxi\\.gradle\\caches\\transforms-3\\6136ce6e39c49eda7199fbbc96df179e\\transformed\\appcompat-1.4.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

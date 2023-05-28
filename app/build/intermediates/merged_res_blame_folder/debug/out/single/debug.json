@@ -32,6 +32,10 @@
         "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/layout_header_drawer_menu.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/layout/header_drawer_menu.xml"
+    },
+    {
         "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/xml_data_extraction_rules.xml.flat",
         "source": "ort.edu.tp3.primierrentcar.app-main-43:/xml/data_extraction_rules.xml"
     },

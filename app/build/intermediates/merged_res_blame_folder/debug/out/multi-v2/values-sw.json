@@ -4,7 +4,7 @@
             "outputFile": "ort.edu.tp3.primierrentcar.app-mergeDebugResources-39:/values-sw/values-sw.xml",
             "map": [
                 {
-                    "source": "/Users/jdubie/.gradle/caches/transforms-3/4aca227a86bf506897f050ea1dde3c28/transformed/navigation-ui-2.5.3/res/values-sw/values-sw.xml",
+                    "source": "C:\\Users\\Maxi\\.gradle\\caches\\transforms-3\\4aca227a86bf506897f050ea1dde3c28\\transformed\\navigation-ui-2.5.3\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jdubie/.gradle/caches/transforms-3/22f0b2be55fdd9e35338f1d33e7b6a02/transformed/core-1.8.0/res/values-sw/values-sw.xml",
+                    "source": "C:\\Users\\Maxi\\.gradle\\caches\\transforms-3\\22f0b2be55fdd9e35338f1d33e7b6a02\\transformed\\core-1.8.0\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jdubie/.gradle/caches/transforms-3/6136ce6e39c49eda7199fbbc96df179e/transformed/appcompat-1.4.1/res/values-sw/values-sw.xml",
+                    "source": "C:\\Users\\Maxi\\.gradle\\caches\\transforms-3\\6136ce6e39c49eda7199fbbc96df179e\\transformed\\appcompat-1.4.1\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/jdubie/.gradle/caches/transforms-3/cab30429eafbd92d7f5d778aca2b3ede/transformed/material-1.5.0/res/values-sw/values-sw.xml",
+                    "source": "C:\\Users\\Maxi\\.gradle\\caches\\transforms-3\\cab30429eafbd92d7f5d778aca2b3ede\\transformed\\material-1.5.0\\res\\values-sw\\values-sw.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

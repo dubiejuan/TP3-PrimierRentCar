@@ -4,7 +4,7 @@
             "outputFile": "ort.edu.tp3.primierrentcar.app-mergeDebugResources-39:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/Users/jdubie/.gradle/caches/transforms-3/cab30429eafbd92d7f5d778aca2b3ede/transformed/material-1.5.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "C:\\Users\\Maxi\\.gradle\\caches\\transforms-3\\cab30429eafbd92d7f5d778aca2b3ede\\transformed\\material-1.5.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
