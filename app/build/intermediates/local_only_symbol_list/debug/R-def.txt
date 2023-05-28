@@ -8,6 +8,7 @@ color black
 color blackFigma
 color blueFigma
 color blueFigma2
+color cyanFigma
 color purple_200
 color purple_500
 color purple_700
@@ -16,7 +17,9 @@ color teal_700
 color white
 color whiteFigma
 color yellowFigma
+drawable alarm
 drawable arrow
+drawable bell
 drawable bg
 drawable brand
 drawable btn_rounded
@@ -27,7 +30,9 @@ drawable gauge
 drawable home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable lilo
 drawable manual_transmission
+drawable notification
 drawable rounded_corner
 drawable search
 drawable settings
@@ -49,7 +54,11 @@ id formLogin
 id fragment_container_view
 id guideline3
 id home_fragment
+id imageFragmentProfileNotification
+id imageFragmentProfileNotification2
+id imageFragmentUserName
 id imageView
+id imageView2
 id imgCardViewCarBrand
 id imgCardViewCarFuelType
 id imgCardViewCarImage
@@ -64,11 +73,16 @@ id premier_nav
 id profile_fragment
 id sarch_bar
 id search_fragment
+id txtCardViewBrandName
+id txtCardViewBrandNumber
 id txtCardViewCarBrand
 id txtCardViewCarFuelType
 id txtCardViewCarName
 id txtCardViewCarTransmission
 id txtCardViewCarYear
+id txtFragmentProfileNotification
+id txtFragmentProfileNotification2
+id txtFragmentUserName
 id txtLoginForgotPass
 id txtLoginPasswordInput
 id txtLoginTitle1
@@ -76,6 +90,7 @@ id txtLoginTitle2
 id txtLoginUserInput
 layout activity_login
 layout activity_main
+layout brand_item
 layout card_item
 layout category_item
 layout fragment_cars

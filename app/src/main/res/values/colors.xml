@@ -12,4 +12,7 @@
     <color name="yellowFigma">#FFCC00</color>
     <color name="whiteFigma">#F5F5F5</color>
     <color name="blackFigma">#212121</color>
+    <color name="cyanFigma">#007BFF</color>
+
+
 </resources>
