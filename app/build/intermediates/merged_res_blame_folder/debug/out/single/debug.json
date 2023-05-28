@@ -1,0 +1,182 @@
+[
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_arrow.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/arrow.png"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_bg.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/bg.png"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_brand.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/brand.png"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_favorite.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/favorite.png"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/layout_activity_login.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/layout/activity_login.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/xml_data_extraction_rules.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/layout_card_item.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/layout/card_item.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/font_poppins.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/font/poppins.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_calendar.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/calendar.png"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/layout_category_item.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/layout/category_item.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/navigation_navgraph.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/navigation/navgraph.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_car.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/car.png"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/font_poppins_thin.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/font/poppins_thin.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_ic_launcher_background.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_gauge.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/gauge.png"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/menu_bottom_bar.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/menu/bottom_bar.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_rounded_corner.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/rounded_corner.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_manual_transmission.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/manual_transmission.png"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/layout_fragment_search.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/layout/fragment_search.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/menu_drawer_menu.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/menu/drawer_menu.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/layout_fragment_cars.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/layout/fragment_cars.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/xml_backup_rules.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/layout_fragment_home.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_user.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/user.png"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/layout_fragment_profile.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_settings.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/settings.png"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_search.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/search.png"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_btn_rounded.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/btn_rounded.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_home.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/home.png"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/layout_activity_main.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/font_fira_sans.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/font/fira_sans.xml"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable-v24/ic_launcher_foreground.xml"
+    }
+]

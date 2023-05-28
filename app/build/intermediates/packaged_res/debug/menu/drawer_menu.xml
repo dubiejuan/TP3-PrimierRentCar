@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/drawer_menu_group">
+        <item
+            android:id="@+id/drawer_menu_title"
+            android:title="@string/txt_user">
+            <menu>
+                <item
+                    android:id="@+id/Favoritos"
+                    android:icon="@drawable/favorite"
+                    android:title="@string/Favoritos" />
+                <item
+                    android:id="@+id/Configuracion"
+                    android:icon="@drawable/settings"
+                    android:title="@string/configuracion" />
+                <item
+                    android:id="@+id/Perfil"
+                    android:icon="@drawable/user"
+                    android:title="@string/perfil" />
+            </menu>
+        </item>
+    </group>
+</menu>
