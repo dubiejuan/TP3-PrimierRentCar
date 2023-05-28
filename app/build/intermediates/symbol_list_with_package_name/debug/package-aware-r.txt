@@ -2511,6 +2511,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable favorite
 drawable gauge
 drawable home
 drawable ic_clock_black_24dp
@@ -2568,6 +2569,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable rounded_corner
 drawable search
+drawable settings
 drawable test_custom_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2580,9 +2582,12 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id Configuracion
 id FUNCTION
+id Favoritos
 id META
 id NO_DEBUG
+id Perfil
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2748,6 +2753,9 @@ id dragLeft
 id dragRight
 id dragStart
 id dragUp
+id drawer_menu
+id drawer_menu_group
+id drawer_menu_title
 id dropdown_menu
 id easeIn
 id easeInOut
@@ -2773,6 +2781,7 @@ id flip
 id floating
 id forever
 id formLogin
+id fragment_container_view
 id fragment_container_view_tag
 id frost
 id ghost_view
@@ -2887,6 +2896,7 @@ id multiply
 id nav_controller_view_tag
 id nav_host
 id nav_host_fragment_container
+id nav_view
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3270,10 +3280,12 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 menu bottom_bar
+menu drawer_menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 navigation navgraph
 plurals mtrl_badge_content_description
+string Favoritos
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -3312,6 +3324,7 @@ string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string configuracion
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -3409,6 +3422,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string perfil
 string premier_title
 string rentcar_title
 string search_menu_title

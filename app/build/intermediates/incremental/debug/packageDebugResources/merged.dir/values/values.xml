@@ -31,17 +31,20 @@
     <color name="white">#FFFFFFFF</color>
     <color name="whiteFigma">#F5F5F5</color>
     <color name="yellowFigma">#FFCC00</color>
+    <string name="Favoritos">Favoritos</string>
     <string name="app_name">PremierRentCar</string>
     <string name="btn_login">ingresar</string>
+    <string name="configuracion">Configuración</string>
     <string name="forgot_password">Olvide la contrseña</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="perfil">Perfil</string>
     <string name="premier_title">Premier</string>
     <string name="rentcar_title">RentCar</string>
     <string name="txt_pass">password</string>
     <string name="txt_user">username</string>
     <style name="Theme.PrimierRentCar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         

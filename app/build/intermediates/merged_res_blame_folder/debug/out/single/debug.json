@@ -16,6 +16,10 @@
         "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/brand.png"
     },
     {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_favorite.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/favorite.png"
+    },
+    {
         "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/layout_activity_login.xml.flat",
         "source": "ort.edu.tp3.primierrentcar.app-main-43:/layout/activity_login.xml"
     },
@@ -112,6 +116,10 @@
         "source": "ort.edu.tp3.primierrentcar.app-main-43:/layout/fragment_search.xml"
     },
     {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/menu_drawer_menu.xml.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/menu/drawer_menu.xml"
+    },
+    {
         "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/layout_fragment_cars.xml.flat",
         "source": "ort.edu.tp3.primierrentcar.app-main-43:/layout/fragment_cars.xml"
     },
@@ -134,6 +142,10 @@
     {
         "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "ort.edu.tp3.primierrentcar.app-main-43:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_settings.png.flat",
+        "source": "ort.edu.tp3.primierrentcar.app-main-43:/drawable/settings.png"
     },
     {
         "merged": "ort.edu.tp3.primierrentcar.app-merged_res-41:/drawable_search.png.flat",

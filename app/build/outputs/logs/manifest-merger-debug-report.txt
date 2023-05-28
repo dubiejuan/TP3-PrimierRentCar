@@ -25,25 +25,24 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jdubie/.gra
 MERGED from [androidx.loader:loader:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/e37a669899d61060ac799aedce8979e5/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/jdubie/.gradle/caches/transforms-3/c274101a07434ad04b724fb93e975906/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/jdubie/.gradle/caches/transforms-3/f612aa33123132fb2ee0a4e48259fb29/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jdubie/.gradle/caches/transforms-3/4b718c06fd7daa00767ed9b3b13cc916/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/jdubie/.gradle/caches/transforms-3/233c3e19901bc579b57d1f8d1ed33832/transformed/core-ktx-1.7.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/jdubie/.gradle/caches/transforms-3/8494edc020b936f3091d88a059f5698a/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/jdubie/.gradle/caches/transforms-3/45650b675579c1893b118a15be425625/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/jdubie/.gradle/caches/transforms-3/f1af2820ef01d1978b1452498e74ea8e/transformed/savedstate-1.2.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jdubie/.gradle/caches/transforms-3/4b718c06fd7daa00767ed9b3b13cc916/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/cc517858984a89b8da933b6a1772392a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/eb105194330d1016e02e7fbfabe83ad6/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/19cc6059fc7a3f74fe35230e88318c0e/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/bc9095411f18057955bea866af6f72c2/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/e521cb642feca31863532b9f1f0ef705/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/jdubie/.gradle/caches/transforms-3/75231e4bfcc274f2c5635ac98be40677/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/bf7419fef5b480f67a86a381e640c5c6/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/ea33e0c029ccb0f958a8cb74e8c3374b/transformed/emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/e25bbd5f1fed08820283bec95505b59e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/8c9cb30dfa64e29e2ffc8174ac40460d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/b4a2bd25f5b5874daccb6f86adb354bc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.4.1] /Users/jdubie/.gradle/caches/transforms-3/4efa6ae3db390113a4b20ec48dff7db1/transformed/transition-1.4.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.8.0] /Users/jdubie/.gradle/caches/transforms-3/22f0b2be55fdd9e35338f1d33e7b6a02/transformed/core-1.8.0/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/f3164ead97191215aaa88930cb2a9e18/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/e521cb642feca31863532b9f1f0ef705/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/e25bbd5f1fed08820283bec95505b59e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jdubie/.gradle/caches/transforms-3/ba2a28e6c1c8bbdd6c71fd65322af4af/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/jdubie/.gradle/caches/transforms-3/de8a294d972494d66d78f81badae09bd/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/481c64774b411e146ce00584d114a0b3/transformed/startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
@@ -56,6 +55,7 @@ MERGED from [androidx.print:print:1.0.0] /Users/jdubie/.gradle/caches/transforms
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jdubie/.gradle/caches/transforms-3/eab65f387fcb231675abd26eed0776c4/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/jdubie/.gradle/caches/transforms-3/e7b28a01e7d404b439944845d9ed2c64/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jdubie/.gradle/caches/transforms-3/9e34bd22ae54c45dca478c3cf6b3b698/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/f3164ead97191215aaa88930cb2a9e18/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:2:1-33:12
 INJECTED from /Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:2:1-33:12
 INJECTED from /Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml:2:1-33:12
@@ -185,6 +185,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/jdubie/.gradle
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] /Users/jdubie/.gradle/caches/transforms-3/c274101a07434ad04b724fb93e975906/transformed/lifecycle-viewmodel-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/jdubie/.gradle/caches/transforms-3/f612aa33123132fb2ee0a4e48259fb29/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] /Users/jdubie/.gradle/caches/transforms-3/f612aa33123132fb2ee0a4e48259fb29/transformed/lifecycle-viewmodel-savedstate-2.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jdubie/.gradle/caches/transforms-3/4b718c06fd7daa00767ed9b3b13cc916/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jdubie/.gradle/caches/transforms-3/4b718c06fd7daa00767ed9b3b13cc916/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/jdubie/.gradle/caches/transforms-3/233c3e19901bc579b57d1f8d1ed33832/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.7.0] /Users/jdubie/.gradle/caches/transforms-3/233c3e19901bc579b57d1f8d1ed33832/transformed/core-ktx-1.7.0/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.5.1] /Users/jdubie/.gradle/caches/transforms-3/8494edc020b936f3091d88a059f5698a/transformed/lifecycle-livedata-core-ktx-2.5.1/AndroidManifest.xml:20:5-22:41
@@ -193,8 +195,6 @@ MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/jdubie/.gradle/cac
 MERGED from [androidx.savedstate:savedstate-ktx:1.2.0] /Users/jdubie/.gradle/caches/transforms-3/45650b675579c1893b118a15be425625/transformed/savedstate-ktx-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/jdubie/.gradle/caches/transforms-3/f1af2820ef01d1978b1452498e74ea8e/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] /Users/jdubie/.gradle/caches/transforms-3/f1af2820ef01d1978b1452498e74ea8e/transformed/savedstate-1.2.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jdubie/.gradle/caches/transforms-3/4b718c06fd7daa00767ed9b3b13cc916/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/jdubie/.gradle/caches/transforms-3/4b718c06fd7daa00767ed9b3b13cc916/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/cc517858984a89b8da933b6a1772392a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/cc517858984a89b8da933b6a1772392a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/eb105194330d1016e02e7fbfabe83ad6/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -203,12 +203,16 @@ MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jdubie/.gradle/caches/tr
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/19cc6059fc7a3f74fe35230e88318c0e/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/bc9095411f18057955bea866af6f72c2/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/bc9095411f18057955bea866af6f72c2/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/e521cb642feca31863532b9f1f0ef705/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/e521cb642feca31863532b9f1f0ef705/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/jdubie/.gradle/caches/transforms-3/75231e4bfcc274f2c5635ac98be40677/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/jdubie/.gradle/caches/transforms-3/75231e4bfcc274f2c5635ac98be40677/transformed/appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/bf7419fef5b480f67a86a381e640c5c6/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/bf7419fef5b480f67a86a381e640c5c6/transformed/emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/ea33e0c029ccb0f958a8cb74e8c3374b/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/ea33e0c029ccb0f958a8cb74e8c3374b/transformed/emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/e25bbd5f1fed08820283bec95505b59e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/e25bbd5f1fed08820283bec95505b59e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/8c9cb30dfa64e29e2ffc8174ac40460d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/8c9cb30dfa64e29e2ffc8174ac40460d/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/b4a2bd25f5b5874daccb6f86adb354bc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -217,12 +221,6 @@ MERGED from [androidx.transition:transition:1.4.1] /Users/jdubie/.gradle/caches/
 MERGED from [androidx.transition:transition:1.4.1] /Users/jdubie/.gradle/caches/transforms-3/4efa6ae3db390113a4b20ec48dff7db1/transformed/transition-1.4.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.8.0] /Users/jdubie/.gradle/caches/transforms-3/22f0b2be55fdd9e35338f1d33e7b6a02/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.8.0] /Users/jdubie/.gradle/caches/transforms-3/22f0b2be55fdd9e35338f1d33e7b6a02/transformed/core-1.8.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/f3164ead97191215aaa88930cb2a9e18/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/f3164ead97191215aaa88930cb2a9e18/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/e521cb642feca31863532b9f1f0ef705/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/e521cb642feca31863532b9f1f0ef705/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/e25bbd5f1fed08820283bec95505b59e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/jdubie/.gradle/caches/transforms-3/e25bbd5f1fed08820283bec95505b59e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jdubie/.gradle/caches/transforms-3/ba2a28e6c1c8bbdd6c71fd65322af4af/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/jdubie/.gradle/caches/transforms-3/ba2a28e6c1c8bbdd6c71fd65322af4af/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/jdubie/.gradle/caches/transforms-3/de8a294d972494d66d78f81badae09bd/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
@@ -247,6 +245,8 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/jdubie/.gr
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /Users/jdubie/.gradle/caches/transforms-3/e7b28a01e7d404b439944845d9ed2c64/transformed/lifecycle-livedata-core-2.5.1/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jdubie/.gradle/caches/transforms-3/9e34bd22ae54c45dca478c3cf6b3b698/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jdubie/.gradle/caches/transforms-3/9e34bd22ae54c45dca478c3cf6b3b698/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/f3164ead97191215aaa88930cb2a9e18/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/jdubie/.gradle/caches/transforms-3/f3164ead97191215aaa88930cb2a9e18/transformed/annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml
 INJECTED from /Users/jdubie/AndroidStudioProjects/PrimierRentCar/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
