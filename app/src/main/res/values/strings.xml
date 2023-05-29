@@ -11,4 +11,11 @@
     <string name="perfil">Perfil</string>
     <string name="configuracion">Configuración</string>
     <string name="Favoritos">Favoritos</string>
+    <string name="home">home</string>
+    <string name="cars">cars</string>
+    <string name="search">search</string>
+    <string name="profile">profile</string>
+    <string name="hola">hola</string>
+    <string name="avatar">avatar</string>
+
 </resources>

@@ -6,14 +6,82 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/drawer_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="13dp">
+
+            <TextView
+                android:id="@+id/txtLoginTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/blueFigma"
+                android:text="@string/premier_title"
+                android:textColor="@color/white"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/txtLoginTitle2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.505"
+                tools:layout_conversion_absoluteHeight="31dp"
+                tools:layout_conversion_absoluteWidth="82dp"
+                tools:layout_editor_absoluteX="84dp"
+                tools:layout_editor_absoluteY="13dp" />
+
+            <TextView
+                android:id="@+id/txtLoginTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/yellowFigma"
+                android:text="@string/rentcar_title"
+                android:textColor="@color/blueFigma2"
+                android:textSize="23sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/txtLoginTitle1"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.505"
+                tools:layout_conversion_absoluteHeight="31dp"
+                tools:layout_conversion_absoluteWidth="83dp"
+                tools:layout_editor_absoluteX="166dp"
+                tools:layout_editor_absoluteY="13dp" />
+
+
+        </LinearLayout>
+
+
+    </androidx.appcompat.widget.Toolbar>
+
     <androidx.drawerlayout.widget.DrawerLayout
         android:id="@+id/drawer_menu"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="410dp"
+        android:layout_height="629dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
         tools:context=".MainActivity">
 
+
         <androidx.fragment.app.FragmentContainerView
-            android:id="@+id/fragment_container_view"
+            android:id="@+id/nav_host"
             android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -25,25 +93,26 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="start"
+            android:fitsSystemWindows="true"
             app:menu="@menu/drawer_menu"
-            android:fitsSystemWindows="true" />
+            app:headerLayout="@layout/header_menu"/>
 
     </androidx.drawerlayout.widget.DrawerLayout>
 
-
+<!--
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/nav_host"
         android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_height="0dp"
         android:layout_width="0dp"
+        android:layout_height="0dp"
         app:defaultNavHost="true"
-        app:layout_constraintBottom_toTopOf="@+id/bottom_bar"
+        app:layout_constraintBottom_toBottomOf="@+id/drawer_menu"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/navgraph"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:navGraph="@navigation/navgraph" />
+-->
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_bar"
         android:layout_width="match_parent"
