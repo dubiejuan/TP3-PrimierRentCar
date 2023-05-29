@@ -38,6 +38,9 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.menu)
 
+        // Ocultar el título del fragmento en la ActionBar
+        supportActionBar?.setDisplayShowTitleEnabled(false)
+
         setupDrawerLayout()
     }
 
