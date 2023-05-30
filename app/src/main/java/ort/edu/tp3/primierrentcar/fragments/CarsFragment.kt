@@ -31,28 +31,17 @@ class CarsFragment : Fragment() {
 
         val view = inflater.inflate(R.layout.fragment_cars, container, false)
 
-        cars = getCarsFromAPI()
-
         val recyclerViewStudents = view.findViewById<RecyclerView>(R.id.recyclerViewCars)
 
-        recyclerViewStudents.adapter = CarsAdapter(cars)
-
         val linearLayoutManager = LinearLayoutManager(context)
-        recyclerViewStudents.layoutManager = linearLayoutManager
 
-        // Inflate the layout for this fragment
-        return view
-    }
-
-    private fun getCarsFromAPI(): MutableList<Car> {
-        val service = CarServiceApiBuilder.create()
-        var cars: MutableList<Car> = ArrayList<Car>()
-
-        service.getCars("4f2iewpk4/dlwwMZhXLWUw==DNvPKb2zSFq4z11n").enqueue(object :
+        CarServiceApiBuilder.create().getCars("4f2iewpk4/dlwwMZhXLWUw==DNvPKb2zSFq4z11n").enqueue(object :
             Callback<List<Car>> {
             override fun onResponse(call: Call<List<Car>>, response: Response<List<Car>>) {
                 if (response.isSuccessful) {
                     cars = response.body() as MutableList<Car>
+                    recyclerViewStudents.adapter = CarsAdapter(cars,context!!)
+                    recyclerViewStudents.layoutManager = linearLayoutManager
                 }
             }
 
@@ -61,7 +50,7 @@ class CarsFragment : Fragment() {
             }
         })
 
-        return cars
+        return view
     }
 
 }

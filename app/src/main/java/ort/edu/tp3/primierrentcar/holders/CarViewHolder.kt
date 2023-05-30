@@ -1,11 +1,15 @@
 package ort.edu.tp3.primierrentcar.holders
 
+import android.content.Context
 import android.view.View
+import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.recyclerview.widget.RecyclerView
+import com.squareup.picasso.Picasso
 import ort.edu.tp3.primierrentcar.R
 
-class CarViewHolder(v: View) : RecyclerView.ViewHolder(v) {
+class CarViewHolder(v: View,private val context:Context) : RecyclerView.ViewHolder(v) {
     private var view: View
 
     init {
@@ -30,6 +34,12 @@ class CarViewHolder(v: View) : RecyclerView.ViewHolder(v) {
     fun setBrand(brand: String) {
         val txt = this.view.findViewById<TextView>(R.id.txtCardViewCarBrand)
         txt.text = brand
+    }
+
+    fun setImage(brand: String) {
+        val image = this.view.findViewById<ImageView>(R.id.imgCardViewCarImage)
+        val drawableId = context.resources.getIdentifier(brand, "drawable", context.packageName)
+        image.setImageResource(drawableId)
     }
 
     fun getContainer() : View {
