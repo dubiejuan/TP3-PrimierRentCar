@@ -1,11 +1,11 @@
 package ort.edu.tp3.primierrentcar.models
 
 import java.io.Serializable
+import com.google.gson.annotations.SerializedName
 
-data class CarResponse(val cars: List<Car>)
 
 data class Car(
-    val fuelType: String,
+    @SerializedName("fuel_type") val fuelType: String,
     val make: String,
     val model: String,
     val transmission: String,

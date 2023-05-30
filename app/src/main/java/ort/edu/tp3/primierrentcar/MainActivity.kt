@@ -2,27 +2,23 @@ package ort.edu.tp3.primierrentcar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-<<<<<<< HEAD
 import android.util.Log
-=======
+
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
->>>>>>> dev
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
-<<<<<<< HEAD
-import ort.edu.tp3.primierrentcar.models.CarResponse
+
+import com.google.android.material.navigation.NavigationView
+import ort.edu.tp3.primierrentcar.models.Car
 import ort.edu.tp3.primierrentcar.services.CarServiceApiBuilder
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
-=======
-import com.google.android.material.navigation.NavigationView
->>>>>>> dev
 
 class MainActivity : AppCompatActivity() {
 
@@ -37,21 +33,22 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        toolbar = findViewById(R.id.toolbar)
+//        toolbar = findViewById(R.id.toolbar)
+//
+//        navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host) as NavHostFragment
+//        bottomNavView = findViewById(R.id.bottom_bar)
+//
+//        NavigationUI.setupWithNavController(bottomNavView,navHostFragment.navController)
+//
+//        drawerLayout = findViewById(R.id.drawer_menu)
+//        navigationView = findViewById(R.id.nav_view)
+//
+//        setSupportActionBar(toolbar) // Configurar la ActionBar
+//        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+//        supportActionBar?.setHomeAsUpIndicator(R.drawable.menu)
 
-        navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host) as NavHostFragment
-        bottomNavView = findViewById(R.id.bottom_bar)
-
-        NavigationUI.setupWithNavController(bottomNavView,navHostFragment.navController)
-
-        drawerLayout = findViewById(R.id.drawer_menu)
-        navigationView = findViewById(R.id.nav_view)
-
-        setSupportActionBar(toolbar) // Configurar la ActionBar
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.setHomeAsUpIndicator(R.drawable.menu)
-
-        setupDrawerLayout()
+       getCars()
+        //setupDrawerLayout()
     }
 
     private fun setupDrawerLayout() {
@@ -82,22 +79,18 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun getCars() {
+    private fun getCars() {
         val service = CarServiceApiBuilder.create()
 
-        service.getCars("4f2iewpk4/dlwwMZhXLWUw==DNvPKb2zSFq4z11n").enqueue(object : Callback<CarResponse> {
-            override fun onResponse(call: Call<CarResponse>, response: Response<CarResponse>) {
+        service.getCars("4f2iewpk4/dlwwMZhXLWUw==DNvPKb2zSFq4z11n").enqueue(object :
+            Callback<List<Car>> {
+            override fun onResponse(call: Call<List<Car>>, response: Response<List<Car>>) {
                 if (response.isSuccessful) {
                     val cars = response.body()
-
-                    /*
-                    activityText.text = car?.name ?: "Activity no encontrada"
-                    typeText.text = car?.type ?: "Type no encontrado"
-                    */
                 }
             }
 
-            override fun onFailure(call: Call<CarResponse>, t: Throwable) {
+            override fun onFailure(call: Call<List<Car>>, t: Throwable) {
                 Log.e("Example", t.stackTraceToString())
             }
         })
