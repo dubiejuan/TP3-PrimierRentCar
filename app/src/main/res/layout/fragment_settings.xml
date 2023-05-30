@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewGenerales"
+                android:layout_width="360dp"
+                android:layout_height="56dp"
+                android:paddingStart="18dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="18dp"
+                android:paddingBottom="16dp"
+                android:text="Generales"
+                android:textColor="#1B72C0"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingTop="16dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:id="@+id/textViewModoOscuro"
+                android:layout_width="261dp"
+                android:layout_height="24dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="5sp"
+                android:text="Modo Oscuro"
+                android:textColor="#001E2F" />
+
+            <Switch
+                android:id="@+id/modoOscuroSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/rounded_switch"
+                android:backgroundTint="#D6D4D5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingTop="16dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:id="@+id/textViewNotificaciones"
+                android:layout_width="261dp"
+                android:layout_height="24dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="5sp"
+                android:text="Notificaciones"
+                android:textColor="#001E2F" />
+
+            <Switch
+                android:id="@+id/notificacionesSwitch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_switch"
+                android:backgroundTint="#D6D4D5"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:scrollHorizontally="false" />
+
+        </LinearLayout>
+
+    </LinearLayout>
