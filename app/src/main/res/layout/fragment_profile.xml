@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".fragments.ProfileFragment"
-    android:id="@+id/Perfil">
+    android:id="@+id/fragmentContainer">
 
 
     <LinearLayout
@@ -36,16 +36,18 @@
 
         <TextView
             android:id="@+id/txtFragmentUserName"
-            android:layout_width="94dp"
-            android:layout_height="32dp"
-            android:text="Martin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_user"
             android:textAlignment="center"
-            android:textColor="@color/blackFigma" />
+            android:textColor="@color/blackFigma"
+            android:textSize="32sp" />
 
 
         <LinearLayout
             android:layout_width="360dp"
             android:layout_height="142dp"
+            android:layout_marginVertical="16dp"
             android:background="@color/white"
             android:gravity="center"
             android:orientation="horizontal">

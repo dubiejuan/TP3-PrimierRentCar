@@ -23,8 +23,9 @@ class CarsAdapter(
         holder.setFuelType(car.fuelType)
         holder.setYear(car.year)
         holder.setBrand(car.brand)
+        holder.setSeats(car.seats)
         holder.setImage(car.brand)
-
+        holder.setName(car.brand, car.model)
     }
 
     override fun getItemCount(): Int {

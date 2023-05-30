@@ -9,5 +9,6 @@ data class Car(
     @SerializedName("make") val brand: String,
     val model: String,
     val transmission: String,
-    val year: Int
+    val year: Int,
+    @SerializedName("class") val seats: String
 ) : Serializable
