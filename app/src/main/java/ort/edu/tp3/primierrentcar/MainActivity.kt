@@ -13,6 +13,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 import com.google.android.material.navigation.NavigationView
+import ort.edu.tp3.primierrentcar.fragments.ProfileFragment
 import ort.edu.tp3.primierrentcar.models.Car
 import ort.edu.tp3.primierrentcar.services.CarServiceApiBuilder
 import retrofit2.Call
@@ -24,7 +25,6 @@ class MainActivity : AppCompatActivity() {
 
  private lateinit var bottomNavView : BottomNavigationView
     private lateinit var navHostFragment : NavHostFragment
-    //private lateinit var navHostFragmentDrawer : NavHostFragment
     private lateinit var drawerLayout: DrawerLayout
     private lateinit var navigationView: NavigationView
     private lateinit var toolbar: Toolbar

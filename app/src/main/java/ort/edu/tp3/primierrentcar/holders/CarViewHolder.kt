@@ -4,9 +4,7 @@ import android.content.Context
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.recyclerview.widget.RecyclerView
-import com.squareup.picasso.Picasso
 import ort.edu.tp3.primierrentcar.R
 
 class CarViewHolder(v: View,private val context:Context) : RecyclerView.ViewHolder(v) {
@@ -19,6 +17,11 @@ class CarViewHolder(v: View,private val context:Context) : RecyclerView.ViewHold
     fun setTransmission(transmission: String) {
         val txt = this.view.findViewById<TextView>(R.id.txtCardViewCarTransmission)
         txt.text = transmission
+        if(transmission=="a") {
+            txt.text = "automatic"
+        } else {
+            txt.text = "manual"
+        }
     }
 
     fun setFuelType(fuelType: String) {
@@ -32,14 +35,30 @@ class CarViewHolder(v: View,private val context:Context) : RecyclerView.ViewHold
     }
 
     fun setBrand(brand: String) {
-        val txt = this.view.findViewById<TextView>(R.id.txtCardViewCarBrand)
+        val txt = this.view.findViewById<TextView>(R.id.txtCardViewCarClass)
         txt.text = brand
+    }
+
+    fun setSeats(seats: String) {
+        val txt = this.view.findViewById<TextView>(R.id.txtCardViewCarClass)
+        txt.text = seats
     }
 
     fun setImage(brand: String) {
         val image = this.view.findViewById<ImageView>(R.id.imgCardViewCarImage)
-        val drawableId = context.resources.getIdentifier(brand, "drawable", context.packageName)
+        var drawableId: Int
+        if(brand=="land rover"){
+            drawableId = context.resources.getIdentifier("land_rover", "drawable", context.packageName)
+        } else {
+            drawableId = context.resources.getIdentifier(brand, "drawable", context.packageName)
+        }
         image.setImageResource(drawableId)
+    }
+
+    fun setName(brand: String, model: String) {
+        val txt = this.view.findViewById<TextView>(R.id.txtCardViewCarName)
+        val name = "$brand $model"
+        txt.text = name.uppercase()
     }
 
     fun getContainer() : View {

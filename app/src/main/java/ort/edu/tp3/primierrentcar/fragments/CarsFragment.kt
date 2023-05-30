@@ -31,7 +31,7 @@ class CarsFragment : Fragment() {
 
         val view = inflater.inflate(R.layout.fragment_cars, container, false)
 
-        val recyclerViewStudents = view.findViewById<RecyclerView>(R.id.recyclerViewCars)
+        val recyclerViewCars = view.findViewById<RecyclerView>(R.id.recyclerViewCars)
 
         val linearLayoutManager = LinearLayoutManager(context)
 
@@ -40,8 +40,8 @@ class CarsFragment : Fragment() {
             override fun onResponse(call: Call<List<Car>>, response: Response<List<Car>>) {
                 if (response.isSuccessful) {
                     cars = response.body() as MutableList<Car>
-                    recyclerViewStudents.adapter = CarsAdapter(cars,context!!)
-                    recyclerViewStudents.layoutManager = linearLayoutManager
+                    recyclerViewCars.adapter = CarsAdapter(cars,context!!)
+                    recyclerViewCars.layoutManager = linearLayoutManager
                 }
             }
 
