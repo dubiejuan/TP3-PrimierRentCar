@@ -22,7 +22,7 @@ import retrofit2.Response
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var bottomNavView : BottomNavigationView
+ private lateinit var bottomNavView : BottomNavigationView
     private lateinit var navHostFragment : NavHostFragment
     //private lateinit var navHostFragmentDrawer : NavHostFragment
     private lateinit var drawerLayout: DrawerLayout
@@ -33,22 +33,25 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        toolbar = findViewById(R.id.toolbar)
-//
-//        navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host) as NavHostFragment
-//        bottomNavView = findViewById(R.id.bottom_bar)
-//
-//        NavigationUI.setupWithNavController(bottomNavView,navHostFragment.navController)
-//
-//        drawerLayout = findViewById(R.id.drawer_menu)
-//        navigationView = findViewById(R.id.nav_view)
-//
-//        setSupportActionBar(toolbar) // Configurar la ActionBar
-//        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-//        supportActionBar?.setHomeAsUpIndicator(R.drawable.menu)
+        toolbar = findViewById(R.id.toolbar)
 
-       getCars()
-        //setupDrawerLayout()
+        navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host) as NavHostFragment
+        bottomNavView = findViewById(R.id.bottom_bar)
+
+        NavigationUI.setupWithNavController(bottomNavView,navHostFragment.navController)
+
+        drawerLayout = findViewById(R.id.drawer_menu)
+        navigationView = findViewById(R.id.nav_view)
+
+        setSupportActionBar(toolbar) // Configurar la ActionBar
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.menu)
+
+        // Ocultar el título del fragmento en la ActionBar
+        supportActionBar?.setDisplayShowTitleEnabled(false)
+
+        setupDrawerLayout()
+        getCars()
     }
 
     private fun setupDrawerLayout() {
