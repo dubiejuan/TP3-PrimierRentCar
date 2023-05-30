@@ -2,6 +2,8 @@ package ort.edu.tp3.primierrentcar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
@@ -9,11 +11,18 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
+
 import com.google.android.material.navigation.NavigationView
+import ort.edu.tp3.primierrentcar.models.Car
+import ort.edu.tp3.primierrentcar.services.CarServiceApiBuilder
+import retrofit2.Call
+import retrofit2.Callback
+import retrofit2.Response
+
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var bottomNavView : BottomNavigationView
+ private lateinit var bottomNavView : BottomNavigationView
     private lateinit var navHostFragment : NavHostFragment
     //private lateinit var navHostFragmentDrawer : NavHostFragment
     private lateinit var drawerLayout: DrawerLayout
@@ -42,6 +51,7 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
         setupDrawerLayout()
+        getCars()
     }
 
     private fun setupDrawerLayout() {
@@ -71,4 +81,23 @@ class MainActivity : AppCompatActivity() {
             navController.navigateUp() || super.onSupportNavigateUp()
         }
     }
+
+    private fun getCars() {
+        val service = CarServiceApiBuilder.create()
+
+        service.getCars("4f2iewpk4/dlwwMZhXLWUw==DNvPKb2zSFq4z11n").enqueue(object :
+            Callback<List<Car>> {
+            override fun onResponse(call: Call<List<Car>>, response: Response<List<Car>>) {
+                if (response.isSuccessful) {
+                    val cars = response.body()
+                }
+            }
+
+            override fun onFailure(call: Call<List<Car>>, t: Throwable) {
+                Log.e("Example", t.stackTraceToString())
+            }
+        })
+    }
+
 }
+
