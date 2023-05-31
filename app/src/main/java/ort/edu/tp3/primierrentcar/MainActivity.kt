@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        toolbar = findViewById(R.id.toolbar)
+//        toolbar = findViewById(R.id.toolbar)
 
         navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host) as NavHostFragment
         bottomNavView = findViewById(R.id.bottom_bar)
@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         drawerLayout = findViewById(R.id.drawer_menu)
         navigationView = findViewById(R.id.nav_view)
 
-        setSupportActionBar(toolbar) // Configurar la ActionBar
+//        setSupportActionBar(toolbar) // Configurar la ActionBar
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.menu)
 
@@ -51,7 +51,6 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.setDisplayShowTitleEnabled(false)
 
         setupDrawerLayout()
-        getCars()
     }
 
     private fun setupDrawerLayout() {
@@ -82,22 +81,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun getCars() {
-        val service = CarServiceApiBuilder.create()
-
-        service.getCars("4f2iewpk4/dlwwMZhXLWUw==DNvPKb2zSFq4z11n").enqueue(object :
-            Callback<List<Car>> {
-            override fun onResponse(call: Call<List<Car>>, response: Response<List<Car>>) {
-                if (response.isSuccessful) {
-                    val cars = response.body()
-                }
-            }
-
-            override fun onFailure(call: Call<List<Car>>, t: Throwable) {
-                Log.e("Example", t.stackTraceToString())
-            }
-        })
-    }
 
 }
 

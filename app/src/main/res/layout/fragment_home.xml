@@ -11,6 +11,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleViewBrands"
+            android:layout_width="287dp"
+            android:layout_height="213dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recycleViewCategories" />
+
         <SearchView
             android:id="@+id/sarch_bar"
             android:layout_width="348dp"
@@ -22,6 +31,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.023" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleViewCategories"
+            android:layout_width="295dp"
+            android:layout_height="370dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sarch_bar" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
 
