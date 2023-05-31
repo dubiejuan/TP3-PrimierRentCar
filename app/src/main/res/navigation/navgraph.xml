@@ -25,4 +25,9 @@
         android:name="ort.edu.tp3.primierrentcar.fragments.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/settings_fragment"
+        android:name="ort.edu.tp3.primierrentcar.fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
 </navigation>

@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        toolbar = findViewById(R.id.toolbar)
+        toolbar = findViewById(R.id.toolbar)
 
         navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host) as NavHostFragment
         bottomNavView = findViewById(R.id.bottom_bar)
@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         drawerLayout = findViewById(R.id.drawer_menu)
         navigationView = findViewById(R.id.nav_view)
 
-//        setSupportActionBar(toolbar) // Configurar la ActionBar
+        setSupportActionBar(toolbar) // Configurar la ActionBar
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeAsUpIndicator(R.drawable.menu)
 
@@ -59,11 +59,6 @@ class MainActivity : AppCompatActivity() {
         navigationView.setupWithNavController(navController) // Vinculo la navegación del drawer con la del graph
 
         NavigationUI.setupActionBarWithNavController(this, navController, drawerLayout)  // Configuro la appbar para que muestre el icono del drawer y actualice el titulo
-
-        // Listener para cuando se realiza la navegacion
-       /* navController.addOnDestinationChangedListener { _, _, _ ->
-            supportActionBar?.setHomeAsUpIndicator(R.drawable.menu) // Aca le digo que quiero que mi icono izquierdo de la appbar sea el del drawer
-        } */
     }
 
     override fun onSupportNavigateUp(): Boolean {
@@ -80,7 +75,5 @@ class MainActivity : AppCompatActivity() {
             navController.navigateUp() || super.onSupportNavigateUp()
         }
     }
-
-
 }
 

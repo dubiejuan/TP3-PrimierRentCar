@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="100dp"
-    android:layout_height="112dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_margin="24dp"
-    app:cardCornerRadius="32dp"
-    android:background="@color/white">
+    android:id="@+id/BrandRecyclerViewItem"
+    android:layout_width="92dp"
+    android:layout_height="119dp"
+    android:layout_margin="4dp"
+    android:background="@color/white"
+    app:cardCornerRadius="32dp">
 
     <LinearLayout
-        android:layout_width="92dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
         android:gravity="center"
+        android:orientation="vertical"
 
         >
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imgBrandCardItem"
             android:layout_width="39dp"
             android:layout_height="50dp"
             app:srcCompat="@drawable/brand" />
 
         <TextView
             android:id="@+id/txtCardViewBrandName"
-            android:layout_width="57dp"
+            android:layout_width="match_parent"
             android:layout_height="18dp"
+            android:text=""
             android:textAlignment="center"
             android:textColor="@color/blackFigma"
-            android:textSize="12sp"
-            android:text="" />
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/txtCardViewBrandNumber"
