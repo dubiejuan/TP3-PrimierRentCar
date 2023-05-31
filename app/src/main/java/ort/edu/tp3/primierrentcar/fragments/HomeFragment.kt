@@ -5,7 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import ort.edu.tp3.primierrentcar.R
+import ort.edu.tp3.primierrentcar.models.Brand
+import ort.edu.tp3.primierrentcar.models.Car
 
 class HomeFragment : Fragment() {
 
