@@ -4,7 +4,7 @@
     android:id="@+id/BrandRecyclerViewItem"
     android:layout_width="92dp"
     android:layout_height="119dp"
-    android:layout_margin="24dp"
+    android:layout_margin="4dp"
     android:background="@color/white"
     app:cardCornerRadius="32dp">
 

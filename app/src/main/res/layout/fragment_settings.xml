@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings_fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteFigma"
+    tools:context=".fragments.SettingsFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewGenerales"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:paddingStart="24dp"
+            android:text="Generales"
+            android:textAlignment="gravity"
+            android:textColor="#1B72C0"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="24dp">
+
+            <TextView
+                android:id="@+id/textViewModoOscuro"
+                android:layout_width="261dp"
+                android:layout_height="24dp"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="5sp"
+                android:text="Modo Oscuro"
+                android:textColor="#001E2F" />
+
+            <Switch
+                android:id="@+id/modoOscuroSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:background="@drawable/rounded_switch"
+                android:backgroundTint="#D6D4D5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="24dp">
+
+            <TextView
+                android:id="@+id/textViewNotificaciones"
+                android:layout_width="261dp"
+                android:layout_height="24dp"
+                android:lineSpacingExtra="5sp"
+                android:text="Notificaciones"
+                android:textColor="#001E2F" />
+
+            <Switch
+                android:id="@+id/notificacionesSwitch3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_switch"
+                android:backgroundTint="#D6D4D5"
+                android:scaleX="1"
+                android:scaleY="1"
+                android:scrollHorizontally="false" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

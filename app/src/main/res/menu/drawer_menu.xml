@@ -5,7 +5,7 @@
         android:icon="@drawable/favorite"
         android:title="@string/Favoritos" />
     <item
-        android:id="@+id/settings_drawer_nav"
+        android:id="@+id/settings_fragment"
         android:icon="@drawable/settings"
         android:title="@string/configuracion" />
     <item
